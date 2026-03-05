@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "folder_icons": false
+  },
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
   "buffer_font_family": "Menlo",
   "icon_theme": "Seti Icon Theme",
   "telemetry": {
@@ -19,7 +36,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 18.0,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "VSCode Modern Light",
     "dark": "VSCode Modern Dark",
   },
