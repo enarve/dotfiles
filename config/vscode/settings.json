@@ -39,7 +39,6 @@
         ".exs": "elixir",
         ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
         ".rkt": "racket",
-        // ".scm": "csi -script",
         ".scm": "chez --script",
         ".ahk": "autohotkey",
         ".au3": "autoit3",
@@ -102,7 +101,6 @@
         "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
         "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
         "racket": "racket",
-        // "scheme": "csi -script",
         "scheme": "chez --script",
         "ahk": "autohotkey",
         "autoit": "autoit3",
@@ -142,6 +140,6 @@
     "editor.tokenColorCustomizations": {
         
     },
-    "chat.disableAIFeatures": true,
+    "chat.disableAIFeatures": true
     
 }
