@@ -7,26 +7,27 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "auto_update": false,
   "terminal": {
-    "cursor_shape": "bar"
+    "cursor_shape": "bar",
   },
   "ui_font_family": "SF Compact Display",
   "project_panel": {
-    "folder_icons": false
+    "folder_icons": false,
   },
   "title_bar": {
-    "show_sign_in": false
+    "show_sign_in": false,
   },
   "agent": {
     "button": false,
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "notification_panel": {
-    "button": false
+    "button": false,
   },
   "buffer_font_family": "SF Mono",
   "icon_theme": "Seti Icon Theme",
@@ -42,7 +43,7 @@
   "theme": {
     "mode": "system",
     "light": "VSCode Modern Light",
-    "dark": "VSCode Modern Dark"
+    "dark": "VSCode Modern Dark",
   },
   "git": {
     "inline_blame": {
@@ -54,16 +55,17 @@
   "remove_trailing_whitespace_on_save": false,
   "ensure_final_newline_on_save": false,
   "tabs": {
-    "file_icons": true
+    "file_icons": true,
   },
   "theme_overrides": {
-      "VSCode Modern Dark": {
-        "version_control.modified": "#555555",
-        "created": "#88c796",
-        "modified": "#c49f85",
-        "deleted": "#b95641",
-        "element.hover": "#333333",
-        "element.selected": "#333333"
-      }
-    }
+    "VSCode Modern Dark": {
+      "version_control.modified": "#555555",
+      "created": "#88c796",
+      "modified": "#c49f85",
+      "deleted": "#b95641",
+      "element.hover": "#333333",
+      "element.selected": "#333333",
+    },
+  },
+  "autosave": "on_focus_change"
 }
