@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "outline_panel": {
+    "default_width": 240.0
+  },
+  "git_panel": {
+    "default_width": 240.0
+  },
   "auto_update": false,
   "terminal": {
     "cursor_shape": "bar",
