@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "cursor_shape": "bar"
+  },
+  "ui_font_family": "SF Compact Display",
   "project_panel": {
     "folder_icons": false
   },
@@ -24,7 +28,7 @@
   "notification_panel": {
     "button": false
   },
-  "buffer_font_family": "Menlo",
+  "buffer_font_family": "SF Mono",
   "icon_theme": "Seti Icon Theme",
   "telemetry": {
     "diagnostics": false,
@@ -33,7 +37,7 @@
   "session": {
     "trust_all_worktrees": true,
   },
-  "ui_font_size": 16,
+  "ui_font_size": 18.0,
   "buffer_font_size": 18.0,
   "theme": {
     "mode": "system",
