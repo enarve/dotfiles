@@ -36,9 +36,9 @@
   "ui_font_size": 16,
   "buffer_font_size": 18.0,
   "theme": {
-    "mode": "dark",
+    "mode": "system",
     "light": "VSCode Modern Light",
-    "dark": "VSCode Modern Dark",
+    "dark": "VSCode Modern Dark"
   },
   "git": {
     "inline_blame": {
@@ -51,5 +51,15 @@
   "ensure_final_newline_on_save": false,
   "tabs": {
     "file_icons": true
-  }
+  },
+  "theme_overrides": {
+      "VSCode Modern Dark": {
+        "version_control.modified": "#555555",
+        "created": "#88c796",
+        "modified": "#c49f85",
+        "deleted": "#b95641",
+        "element.hover": "#333333",
+        "element.selected": "#333333"
+      }
+    }
 }
