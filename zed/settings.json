@@ -24,11 +24,6 @@
   "title_bar": {
     "show_sign_in": false,
   },
-  "agent": {
-    "button": false,
-    "favorite_models": [],
-    "model_parameters": [],
-  },
   "collaboration_panel": {
     "button": false,
   },
