@@ -3,3 +3,7 @@
 [user]
 	name = Nikita
 	email = 80875524+enarve@users.noreply.github.com
+[credential]
+	helper = manager
+[init]
+	defaultBranch = main
