@@ -33,6 +33,7 @@
   "project_panel": {
     "folder_indicator": "chevron",
     "dock": "left",
+    "auto_reveal_entries": false
   },
   "title_bar": {
     "show_worktree_name": false,
@@ -90,15 +91,19 @@
   },
   "autosave": "on_focus_change",
   "languages": {
-    "JavaScript": {
+    "TSX": {
+      "formatter": "prettier",
       "code_actions_on_format": {
         "source.fixAll.eslint": true
-    }
+      },
+      "format_on_save": "on"
     },
-    "TypeScript": {
+    "JavaScript": {
+      "formatter": "prettier",
       "code_actions_on_format": {
         "source.fixAll.eslint": true
-      }
+      },
+      "format_on_save": "on"
     }
-  }
+  } 
 }
