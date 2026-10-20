@@ -7,10 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "new_window",
+  "tab_bar": {
+    "show": true
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "outline_panel": {
+    "dock": "left",
     "default_width": 240.0
   },
   "git_panel": {
+    "button": true,
+    "dock": "left",
     "default_width": 240.0
   },
   "auto_update": false,
@@ -19,15 +31,22 @@
   },
   "ui_font_family": "SF Compact Display",
   "project_panel": {
-    "folder_icons": false,
+    "folder_indicator": "chevron",
+    "dock": "left",
   },
   "title_bar": {
+    "show_worktree_name": false,
+    "show_menus": false,
+    "show_user_picture": true,
+    "show_user_menu": true,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_branch_status_icon": false,
     "show_sign_in": false,
   },
   "collaboration_panel": {
-    "button": false,
-  },
-  "notification_panel": {
+    "dock": "left",
     "button": false,
   },
   "buffer_font_family": "SF Mono",
@@ -47,6 +66,7 @@
     "dark": "VSCode Modern Dark",
   },
   "git": {
+    "enable_status": true,
     "inline_blame": {
       "enabled": false,
     },
@@ -68,5 +88,17 @@
       "element.selected": "#333333",
     },
   },
-  "autosave": "on_focus_change"
+  "autosave": "on_focus_change",
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+    }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  }
 }
